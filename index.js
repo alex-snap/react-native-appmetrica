@@ -42,7 +42,7 @@ export default {
      * @param {object} reason
      */
     reportError(error: string, reason: Object) {
-        AppMetrica.reportError(error, reason);
+        AppMetrica.reportError(error);
     },
 
     /**
